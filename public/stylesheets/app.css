@@ -1,8 +1,3 @@
-nav > ul {
-  list-style: none;
-  width: 100%;
-}
-
-nav > ul > li {
-  display: inline;
+html {
+  font-family: Helvetica, sans-serif;
 }

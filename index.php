@@ -14,22 +14,28 @@
   <body>
     <header>
       <!-- nav bar -->
-      <nav id="navBar">
-        Navigation bar will go here :)
-        <ul>
-          <li>
-            Home
-          </li>
-          <li>
-            About
-          </li>
-          <li>
-            Appointment
-          </li>
-          <li>
-            Contact
-          </li>
-        </ul>
+      <div class="title-bar" data-responsive-toggle="dropdownMenu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="dropdownMenu"></button>
+        <div class="title-bar-title">Menu</div>
+      </div>
+      
+      <nav class="top-bar" id="dropdownMenu">
+        <div class="top-bar-left">
+          <ul class = "dropdown menu">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Appointment</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
       <!-- #Content-->
