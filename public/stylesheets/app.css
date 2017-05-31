@@ -1,3 +1,8 @@
 html {
   font-family: Helvetica, sans-serif;
 }
+
+.scrollPic {
+  background: url('../images/fall_reflection.jpg') no-repeat center top;
+  background-size: 100% auto;
+}
