@@ -1,3 +1,7 @@
+<?php
+  include "db/db_creation.php";
+  include "db/initialization.php";
+?>
 <!doctype html>
 <html>
   <head>
@@ -60,12 +64,89 @@
     <div class="row">
       <h2 class="small-6 large-8 columns">Make An Appointment</h2>
     </div>
+    <?php
+    // **************************************************
+    // *                FORM CODE                       *
+    // **************************************************
+    ?>
     <div class="row">
-      <p class="small-8 large-6 columns">
+      <p class="small-12 large-6 columns">
         Complete this form to request an appointment. We will be in touch regarding availability soon.
       </p>
     </div>
-    <form name="AppointmentForm" action=""
+    <form name="AppointmentForm" action="db/appointmentRequest.php">
+      <div class="row">
+        <div class="small-12 large-8 columns">
+          <label for="firstName">First Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <input type="text" id="firstName" name="firstName" placeholder="John" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <label for="lastName">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <input type="text" id="lastName" name="lastName" placeholder="Smith" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <input type="email" id="email" name="email" placeholder="example@aol.com" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <label for="phone">Phone Number</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <input type="number" id="phone" name="phone" placeholder="111-111-1111" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <label for="firstDate">Preferred Appointment Date</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <input type="datetime-local" id="firstDate" name="firstDate" required/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <label for="secondDate">Second Choice</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <input type="date" id="secondDate" name="secondDate"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-5">
+          <button class="button" name="submit" value="submit" type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+    
+    <?php
+    // ********************************************
+    // *             END FORM CODE                *
+    // ********************************************
+    ?>
     <div class="row">
       <h2 class="small-6 large-4 columns">Contact Us</h2>
     </div>
