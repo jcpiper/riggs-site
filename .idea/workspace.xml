@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13ba874-5018-4ea8-9078-0d387d901a24" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/initialization.php" afterPath="$PROJECT_DIR$/db/initialization.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="RiggsSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,15 +37,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="311">
+              <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
               <folding>
-                <marker date="1496257471428" expanded="true" signature="7304:7484" ph="..." />
-                <marker date="1496257471428" expanded="true" signature="7374:7409" ph="..." />
-                <marker date="1496257471428" expanded="true" signature="7451:7484" ph="..." />
+                <marker date="1496356400940" expanded="true" signature="10222:10402" ph="..." />
+                <marker date="1496356400940" expanded="true" signature="10292:10327" ph="..." />
+                <marker date="1496356400940" expanded="true" signature="10369:10402" ph="..." />
               </folding>
             </state>
           </provider>
@@ -64,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initialization.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="initialization.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/initialization.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="544">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
                 <marker date="1496354359904" expanded="true" signature="382:406" ph="create table... appointments" />
@@ -133,8 +132,8 @@
         <option value="$PROJECT_DIR$/public/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/db/appointmentRequest.php" />
         <option value="$PROJECT_DIR$/db/db_creation.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/db/initialization.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -353,12 +352,12 @@
       <updated>1495898302894</updated>
       <workItem from="1495898320809" duration="10338000" />
       <workItem from="1495985373341" duration="9997000" />
-      <workItem from="1496248546417" duration="8711000" />
+      <workItem from="1496248546417" duration="11034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29046000" />
+    <option name="totallyTimeSpent" value="31369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -410,9 +409,9 @@
         <state relative-caret-position="1275">
           <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
           <folding>
-            <marker date="1496257471428" expanded="true" signature="7304:7484" ph="..." />
-            <marker date="1496257471428" expanded="true" signature="7374:7409" ph="..." />
-            <marker date="1496257471428" expanded="true" signature="7451:7484" ph="..." />
+            <marker date="1496356400940" expanded="true" signature="10222:10402" ph="..." />
+            <marker date="1496356400940" expanded="true" signature="10292:10327" ph="..." />
+            <marker date="1496356400940" expanded="true" signature="10369:10402" ph="..." />
           </folding>
         </state>
       </provider>
@@ -430,9 +429,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1496257471428" expanded="true" signature="7304:7484" ph="..." />
-            <marker date="1496257471428" expanded="true" signature="7374:7409" ph="..." />
-            <marker date="1496257471428" expanded="true" signature="7451:7484" ph="..." />
+            <marker date="1496356400940" expanded="true" signature="10222:10402" ph="..." />
+            <marker date="1496356400940" expanded="true" signature="10292:10327" ph="..." />
+            <marker date="1496356400940" expanded="true" signature="10369:10402" ph="..." />
           </folding>
         </state>
       </provider>
@@ -524,14 +523,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/db/initialization.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="544">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
-            <marker date="1496257471428" expanded="true" signature="7304:7484" ph="..." />
-            <marker date="1496257471428" expanded="true" signature="7374:7409" ph="..." />
-            <marker date="1496257471428" expanded="true" signature="7451:7484" ph="..." />
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1496354359904" expanded="true" signature="382:406" ph="create table... appointments" />
+            <marker date="1496354359904" expanded="true" signature="382:565" ph="create table... appointment" />
+            <marker date="1496354359904" expanded="true" signature="569:796" ph="CREATE TABLE... patient" />
+            <marker date="1496354359904" expanded="true" signature="800:1021" ph="CREATE TABLE... user" />
           </folding>
         </state>
       </provider>
@@ -544,16 +545,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/initialization.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        <state relative-caret-position="311">
+          <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
           <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1496354359904" expanded="true" signature="382:406" ph="create table... appointments" />
-            <marker date="1496354359904" expanded="true" signature="382:565" ph="create table... appointment" />
-            <marker date="1496354359904" expanded="true" signature="569:796" ph="CREATE TABLE... patient" />
-            <marker date="1496354359904" expanded="true" signature="800:1021" ph="CREATE TABLE... user" />
+            <marker date="1496356400940" expanded="true" signature="10222:10402" ph="..." />
+            <marker date="1496356400940" expanded="true" signature="10292:10327" ph="..." />
+            <marker date="1496356400940" expanded="true" signature="10369:10402" ph="..." />
           </folding>
         </state>
       </provider>
