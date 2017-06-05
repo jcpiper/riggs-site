@@ -3,6 +3,12 @@ html {
 }
 
 .scrollPic {
-  background: url('../images/fall_reflection.jpg') no-repeat center top;
+  background: url('../images/office_1.jpg') no-repeat center top;
   background-size: 100% auto;
+  /*color: white;*/
+}
+
+.grey-back {
+  background: rgba(92,255,195,.7);
+
 }
