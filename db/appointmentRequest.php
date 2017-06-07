@@ -29,18 +29,20 @@ $results = $conn->query($sql);
 
 if (!$results->num_rows > 0) {
   // patient is not already in db, add him/her
-  $sql = "INSERT into patients 
+  
+  //first free the results
+  $results->free();
+  
+  $insert = "INSERT into patients 
     (first_name,last_name,email,phone) 
     VALUES ('$firstName', '$lastName', '$email', '$phone')
   ";
   
-  echo 'sql statement: ' . $sql;
-  if($conn->query($sql) !== true) {
+  echo 'sql statement: ' . $insert;
+  if($conn->query($insert) !== true) {
     echo "UH OH " . $conn->error;
   }
 }
-
-
 
 $results = $conn->query($sql);
 
