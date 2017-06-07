@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13ba874-5018-4ea8-9078-0d387d901a24" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/appointmentRequest.php" afterPath="$PROJECT_DIR$/db/appointmentRequest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db_queries.php" afterPath="$PROJECT_DIR$/db/db_queries.php" />
     </list>
     <ignored path="RiggsSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,18 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appointmentRequest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appointmentRequest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/appointmentRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="478">
+              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
-                <marker date="1496851500492" expanded="true" signature="980:1088" ph="select id FR... patients" />
-                <marker date="1496851500492" expanded="true" signature="1287:1409" ph="INSERT into patients... " />
-                <marker date="1496851500492" expanded="true" signature="1287:1414" ph="INSERT into patients... " />
-                <marker date="1496851500492" expanded="true" signature="1547:1623" ph="..." />
-                <marker date="1496851500492" expanded="true" signature="1783:1913" ph="INSERT into appointments... " />
               </folding>
             </state>
           </provider>
@@ -71,19 +68,29 @@
       <file leaf-file-name="db_queries.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/db_queries.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+            <state relative-caret-position="444">
+              <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1496849934856" expanded="true" signature="303:353" ph="SELECT id FR... patients" />
-                <marker date="1496849934856" expanded="true" signature="303:354" ph="SELECT id FR... patients" />
-                <marker date="1496849934856" expanded="true" signature="303:377" ph="SELECT id FR... patients" />
-                <marker date="1496849934856" expanded="true" signature="303:394" ph="SELECT id FR... patients" />
-                <marker date="1496849934856" expanded="true" signature="303:395" ph="SELECT id FR... patients" />
-                <marker date="1496849934856" expanded="true" signature="665:757" ph="SELECT id FR... patients" />
-                <marker date="1496849934856" expanded="true" signature="958:1074" ph="INSERT INTO patient... " />
-                <marker date="1496849934856" expanded="true" signature="1352:1474" ph="INSERT INTO appointments... " />
+                <marker date="1496852937112" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
+                <marker date="1496852937112" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
+                <marker date="1496852937112" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
+                <marker date="1496852937112" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
+                <marker date="1496852937112" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
+                <marker date="1496852937112" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
+                <marker date="1496852937112" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
+                <marker date="1496852937112" expanded="true" signature="1384:1506" ph="INSERT INTO appointments... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -179,6 +186,7 @@
         <option value="$PROJECT_DIR$/db/initialization.php" />
         <option value="$PROJECT_DIR$/db/db_queries.php" />
         <option value="$PROJECT_DIR$/db/appointmentRequest.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
       </list>
     </option>
   </component>
@@ -321,6 +329,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiggsSite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RiggsSite" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -402,12 +424,12 @@
       <updated>1495898302894</updated>
       <workItem from="1495898320809" duration="10338000" />
       <workItem from="1495985373341" duration="9997000" />
-      <workItem from="1496248546417" duration="30735000" />
+      <workItem from="1496248546417" duration="33034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51070000" />
+    <option name="totallyTimeSpent" value="53369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -596,6 +618,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
+          <folding>
+            <marker date="1496773639129" expanded="true" signature="10685:10865" ph="..." />
+            <marker date="1496773639129" expanded="true" signature="10755:10790" ph="..." />
+            <marker date="1496773639129" expanded="true" signature="10832:10865" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/initialization.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -613,48 +647,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/db_queries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="3" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1496849934856" expanded="true" signature="303:353" ph="SELECT id FR... patients" />
-            <marker date="1496849934856" expanded="true" signature="303:354" ph="SELECT id FR... patients" />
-            <marker date="1496849934856" expanded="true" signature="303:377" ph="SELECT id FR... patients" />
-            <marker date="1496849934856" expanded="true" signature="303:394" ph="SELECT id FR... patients" />
-            <marker date="1496849934856" expanded="true" signature="303:395" ph="SELECT id FR... patients" />
-            <marker date="1496849934856" expanded="true" signature="665:757" ph="SELECT id FR... patients" />
-            <marker date="1496849934856" expanded="true" signature="958:1074" ph="INSERT INTO patient... " />
-            <marker date="1496849934856" expanded="true" signature="1352:1474" ph="INSERT INTO appointments... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="12" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
-          <folding>
-            <marker date="1496773639129" expanded="true" signature="10685:10865" ph="..." />
-            <marker date="1496773639129" expanded="true" signature="10755:10790" ph="..." />
-            <marker date="1496773639129" expanded="true" signature="10832:10865" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/appointmentRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="478">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
-            <marker date="1496851500492" expanded="true" signature="980:1088" ph="select id FR... patients" />
-            <marker date="1496851500492" expanded="true" signature="1287:1409" ph="INSERT into patients... " />
-            <marker date="1496851500492" expanded="true" signature="1287:1414" ph="INSERT into patients... " />
-            <marker date="1496851500492" expanded="true" signature="1547:1623" ph="..." />
-            <marker date="1496851500492" expanded="true" signature="1783:1913" ph="INSERT into appointments... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db_queries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1496852937112" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
+            <marker date="1496852937112" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
+            <marker date="1496852937112" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
+            <marker date="1496852937112" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
+            <marker date="1496852937112" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
+            <marker date="1496852937112" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
+            <marker date="1496852937112" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
+            <marker date="1496852937112" expanded="true" signature="1384:1506" ph="INSERT INTO appointments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

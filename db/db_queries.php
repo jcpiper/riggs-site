@@ -7,7 +7,7 @@
  */
   
 class db{
-  public $conn;
+//  public $conn;
   function __construct()
   {
     $this->conn = new mysqli('localhost', 'root', '', 'AppointmentScheduler');
@@ -15,10 +15,10 @@ class db{
   
   public function patientExists($fName, $lName, $email){
     $sql = "SELECT id FROM patients 
-      WHERE first_name = $fName and last_name = $lName and email = $email
+      WHERE first_name = '$fName' and last_name = '$lName' and email = '$email'
     ";
     $result = $this->conn->query($sql);
-    
+    var_dump($result);
     if($result->num_rows < 1) {
       $result->free();
       return false;
@@ -30,7 +30,7 @@ class db{
   
   public function getPatientId($fName, $lName, $email){
     $sql = "SELECT id FROM patients 
-      WHERE first_name = $fName and last_name = $lName and email = $email
+      WHERE first_name = '$fName' and last_name = '$lName' and email = '$email'
     ";
     $result = $this->conn->query($sql);
     
@@ -63,6 +63,6 @@ class db{
   function __destruct()
   {
     // TODO: Implement __destruct() method.
-    $this->conn->close();
+    echo 'bye!';
   }
 }
