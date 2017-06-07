@@ -6,9 +6,10 @@
  * Time: 12:42 PM
  */
 
+include 'db_queries.php';
 // Handles appointment requests
 
-$conn = new mysqli('localhost', 'root', '', 'AppointmentScheduler');
+$db = new db();
 
 echo var_dump($_POST);
 $firstName = $_POST["firstName"];
@@ -20,51 +21,67 @@ $dateTwo = $_POST["secondDate"];
 $dateThree = $_POST["thirdDate"];
 
 
-$sql = <<<sql
-  select id FROM patients
-  WHERE first_name = '$firstName' and last_name = '$lastName' and email = '$email'
-sql;
+if (!$db->patientExists($firstName, $lastName, $email)){
+  echo 'patient insertion ' . $db->insertPatient($firstName, $lastName, $email, $phone);
+}
 
-$results = $conn->query($sql);
-
-if (!$results->num_rows > 0) {
-  // patient is not already in db, add him/her
-  
-  //first free the results
-  $results->free();
-  
-  $insert = "INSERT into patients 
-    (first_name,last_name,email,phone) 
-    VALUES ('$firstName', '$lastName', '$email', '$phone')
-  ";
-  
-  echo 'sql statement: ' . $insert;
-  if($conn->query($insert) !== true) {
-    echo "UH OH " . $conn->error;
+$id = $db->getPatientId($firstName, $lastName, $email);
+if($dateTwo != ''){
+  if($dateThree != ''){
+    echo 'appointment with three dates ' .$db->insertAppointment($id, $date, $dateTwo, $dateThree);
+  } else{
+    echo 'appointment with two dates ' . $db->insertAppointment($id, $date, $dateTwo);
   }
+} else{
+  echo 'appointment with one date ' .$db->insertAppointment($id, $date);
 }
 
-$results = $conn->query($sql);
+$db->__destruct();
+//$sql = <<<sql
+//  select id FROM patients
+//  WHERE first_name = '$firstName' and last_name = '$lastName' and email = '$email'
+//sql;
+//
+//$results = $conn->query($sql);
 
-if ($results->num_rows > 1) {
-  die("Patient query returned more than one id. Contact sysadmin immediately.");
-}
-
-$row = $results->fetch_assoc();
-$id = $row["id"];
-
-$sql = <<<sql
-  INSERT into appointments
-  (first_date, second_date, third_date, patient_id)
-  VALUES ('$date', '$dateTwo', '$dateThree', $id)
-sql;
-
-if($conn->query($sql) === true) {
-  echo 'appointment submitted successfully';
-} else {
-  echo 'failed to submit appointment ' . $conn->error;
-}
-
-$results->free();
-$conn->close();
-echo 'bye bye';
+//if (!$results->num_rows > 0) {
+//  // patient is not already in db, add him/her
+//
+//  //first free the results
+//  $results->free();
+//
+//  $insert = "INSERT into patients
+//    (first_name,last_name,email,phone)
+//    VALUES ('$firstName', '$lastName', '$email', '$phone')
+//  ";
+//
+//  echo 'sql statement: ' . $insert;
+//  if($conn->query($insert) !== true) {
+//    echo "UH OH " . $conn->error;
+//  }
+//}
+//
+//$results = $conn->query($sql);
+//
+//if ($results->num_rows > 1) {
+//  die("Patient query returned more than one id. Contact sysadmin immediately.");
+//}
+//
+//$row = $results->fetch_assoc();
+//$id = $row["id"];
+//
+//$sql = <<<sql
+//  INSERT into appointments
+//  (first_date, second_date, third_date, patient_id)
+//  VALUES ('$date', '$dateTwo', '$dateThree', $id)
+//sql;
+//
+//if($conn->query($sql) === true) {
+//  echo 'appointment submitted successfully';
+//} else {
+//  echo 'failed to submit appointment ' . $conn->error;
+//}
+//
+//$results->free();
+//$conn->close();
+//echo 'bye bye';
