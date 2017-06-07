@@ -1,6 +1,7 @@
 <?php
 //  include "db/db_creation.php";
-//  include "db/initialization.php";
+  include "db/db_connect.php";
+  include "db/initialization.php";
 ?>
 <!doctype html>
 <html>
@@ -90,7 +91,7 @@
         Complete this form to request an appointment. We will be in touch regarding availability soon.
       </p>
     </div>
-    <form name="AppointmentForm" action="db/appointmentRequest.php">
+    <form name="AppointmentForm" action="db/appointmentRequest.php" method="post">
       <div class="row">
         <div class="small-12 large-8 columns">
           <label for="firstName">First Name</label>
@@ -149,6 +150,16 @@
       <div class="row">
         <div class="small-12 large-6 columns">
           <input type="date" id="secondDate" name="secondDate"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 columns">
+          <label for="thirdDate">Second Choice</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="small-12 large-6 columns">
+          <input type="date" id="thirdDate" name="thirdDate"/>
         </div>
       </div>
       <div class="row">
