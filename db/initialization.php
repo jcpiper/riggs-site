@@ -30,6 +30,7 @@ $table = "create table appointments(
   first_date DATETIME not null,
   second_date DATETIME,
   third_date DATETIME,
+  processed BOOL NOT NULL DEFAULT FALSE,
   creationDate TIMESTAMP 
   )
  ";

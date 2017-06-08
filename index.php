@@ -1,7 +1,7 @@
 <?php
 //  include "db/db_creation.php";
-  include "db/db_connect.php";
-  include "db/initialization.php";
+//  include "db/db_connect.php";
+//  include "db/initialization.php";
 ?>
 <!doctype html>
 <html>
@@ -17,7 +17,7 @@
   </head>
   
   <body>
-    <header>
+    <header id="head">
       <!-- nav bar -->
       <div class="title-bar" data-responsive-toggle="dropdownMenu" data-hide-for="medium">
         <button class="menu-icon" type="button" data-toggle="dropdownMenu"></button>
@@ -43,21 +43,19 @@
         </div>
       </nav>
     </header>
-      <!-- #Content-->
-    <div id="mainDiv">
-      <div class="row">
-        <h2 class="small-8 large-6 columns">Welcome!</h2>
-      </div>
-      <div class="row">
-        <div class="small-12 columns">
+    <!-- #Content-->
+    <div id="scrollPic">
+      <div class="row overlay">
+        <div class="small-centered small-6 columns grey-back">
+          <p>
+            Welcome to Dr. Kimberly Riggs Optometry. We have been serving the Ligonier area since 2008. Our office is located on West Main Street,
+            just up the street from the Diamond.
+          </p>
           <!-- start slipsum code -->
+<!--          <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>-->
   
-          <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
-  
-          <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
-  
-          <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>
-  
+<!--          <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>-->
+          
           <!-- end slipsum code -->
         </div>
       </div>
@@ -182,7 +180,7 @@
         etc.
       </p>
     </div>
-    <div class="scrollPic">
+    <div>
       <div class="row">
         <div class="small-10">
           <!-- start slipsum code -->

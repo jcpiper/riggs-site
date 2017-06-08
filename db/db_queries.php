@@ -60,6 +60,25 @@ class db{
     return true;
   }
   
+  // add queries to update phone number
+  
+  /**
+   * @return bool|mysqli_result
+   * query to return all unprocessed appointment requests
+   */
+  function getNewAppointments() {
+    $sql = "SELECT * FROM appointments 
+      WHERE  processed = FALSE";
+    
+    $result = $this->conn->query($sql);
+    if($result->num_rows > 0){
+      return $result;
+    } else{
+      //no results, return false
+      return false;
+    }
+  }
+  
   function __destruct()
   {
     // TODO: Implement __destruct() method.

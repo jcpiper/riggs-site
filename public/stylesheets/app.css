@@ -2,13 +2,23 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
-.scrollPic {
-  background: url('../images/office_1.jpg') no-repeat center top;
-  background-size: 100% auto;
-  /*color: white;*/
+.grey-back {
+  color: white;
+  background: rgba(0,0,0,.6);
 }
 
-.grey-back {
-  background: rgba(92,255,195,.7);
+.overlay {
+  position: absolute;
+  top: 50%;
+  font-size: x-large;
+}
 
+#scrollPic {
+  background: url('../images/office_1.jpg') no-repeat center top;
+  background-size: 100% auto;
+  width: 100%;
+  height: 250%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  /*color: white;*/
 }
