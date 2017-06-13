@@ -7,7 +7,7 @@ html {
   background: rgba(0,0,0,.6);
 }
 
-.overlay {
+.overlay-center {
   position: absolute;
   top: 50%;
   font-size: x-large;

@@ -44,36 +44,70 @@
       </nav>
     </header>
     <!-- #Content-->
-    <div id="scrollPic">
-      <div class="row overlay">
-        <div class="small-centered small-6 columns grey-back">
+    <div id="scrollPic" class="hide-for-small-only">
+      <div class="row overlay-center">
+        <div class="medium-12 large-6 medium-centered columns grey-back">
           <p>
             Welcome to Dr. Kimberly Riggs Optometry. We have been serving the Ligonier area since 2008. Our office is located on West Main Street,
             just up the street from the Diamond.
           </p>
-          <!-- start slipsum code -->
-<!--          <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>-->
-  
-<!--          <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>-->
-          
-          <!-- end slipsum code -->
         </div>
       </div>
     </div>
     <div class="row">
-      <h2 class="small-6 large-4 columns">About Us</h2>
+      <div class="small-6 large-8 large-centered columns">
+        <h2>About Us</h2>
+      </div>
     </div>
     <div class="row">
-      <div class="small-8 large-6 columns">
-        <!-- start slipsum code -->
-  
-        <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand? </p>
-  
-        <p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>
-  
-        <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
-  
-        <!-- end slipsum code -->
+      <div class="small-6 large-8 large-centered columns">
+        <p>
+          We are here for all of your vision-care needs.
+        </p>
+        <ul>
+          <li>
+            Vision Screening
+          </li>
+          <li>
+            Eye-glasses
+          </li>
+          <li>
+            Contact Lenses
+          </li>
+          <li>
+            Glaucoma Screening
+          </li>
+        </ul>
+      </div>
+    <div class="row">
+      <div class="small-6 large-centered columns">
+        <h2>Who we are</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="small-4 columns">
+        <div class="card" style="width: 250px;">
+          <img src="public/images/kim.jpg">
+          <div class="card-section">
+            <h5>Kim Riggs, O.D.</h5>
+          </div>
+        </div>
+      </div>
+      <div class="small-4 columns">
+        <div class="card" style="width: 250px;">
+          <img src="public/images/kim.jpg">
+          <div class="card-section">
+            <h5>Nancy Piper, Optician</h5>
+          </div>
+        </div>
+      </div>
+      <div class="small-4 columns">
+        <div class="card" style="width: 250px;">
+          <img src="public/images/kim.jpg">
+          <div class="card-section">
+            <h5>Pam Hardiman, Secretary</h5>
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -91,77 +125,77 @@
     </div>
     <form name="AppointmentForm" action="db/appointmentRequest.php" method="post">
       <div class="row">
-        <div class="small-12 large-8 columns">
+        <div class="small-12 large-6 large-centered columns">
           <label for="firstName">First Name</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-6 large-centered columns">
           <input type="text" id="firstName" name="firstName" placeholder="John" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 columns">
+        <div class="small-12 large-6 large-centered columns">
           <label for="lastName">Last Name</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-6 large-centered columns">
           <input type="text" id="lastName" name="lastName" placeholder="Smith" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 columns">
+        <div class="small-12 large-6 large-centered columns">
           <label for="email">Email</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-6 large-centered columns">
           <input type="email" id="email" name="email" placeholder="example@aol.com" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 columns">
+        <div class="small-12 large-6 large-centered columns">
           <label for="phone">Phone Number</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-6 large-centered columns">
           <input type="number" id="phone" name="phone" placeholder="111-111-1111" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 columns">
+        <div class="small-12 large-6 large-centered columns">
           <label for="firstDate">Preferred Appointment Date</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-6 large-centered columns">
           <input type="datetime-local" id="firstDate" name="firstDate" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 columns">
+        <div class="small-12 large-6 large-centered columns">
           <label for="secondDate">Second Choice</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-6 large-centered columns">
           <input type="date" id="secondDate" name="secondDate"/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 columns">
-          <label for="thirdDate">Second Choice</label>
+        <div class="small-12 large-6 large-centered columns">
+          <label for="thirdDate">Third Choice</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 columns">
+        <div class="small-12 large-6 large-centered columns">
           <input type="date" id="thirdDate" name="thirdDate"/>
         </div>
       </div>
       <div class="row">
-        <div class="small-5">
+        <div class="small-5 large-6 large-centered columns">
           <button class="button" name="submit" value="submit" type="submit">Submit</button>
         </div>
       </div>
@@ -193,17 +227,6 @@
   
           <h2>Are you ready for the truth?</h2>
           <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="small-6 small-centered columns grey-back">
-          <h2>I can do that</h2>
-          <p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass. </p>
-  
-          <h2>Are you ready for the truth?</h2>
-          <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
-  
-          <!-- end slipsum code -->
         </div>
       </div>
     </div>
