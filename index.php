@@ -17,7 +17,7 @@
   </head>
   
   <body>
-    <header id="head">
+    <header id="head" class="sticky">
       <!-- nav bar -->
       <div class="title-bar" data-responsive-toggle="dropdownMenu" data-hide-for="medium">
         <button class="menu-icon" type="button" data-toggle="dropdownMenu"></button>
@@ -55,12 +55,12 @@
       </div>
     </div>
     <div class="row">
-      <div class="small-6 large-8 large-centered columns">
+      <div class="small-12 large-6 large-centered columns">
         <h2>About Us</h2>
       </div>
     </div>
     <div class="row">
-      <div class="small-6 large-8 large-centered columns">
+      <div class="small-12 large-6 large-centered columns">
         <p>
           We are here for all of your vision-care needs.
         </p>
@@ -95,7 +95,7 @@
       </div>
       <div class="small-4 columns">
         <div class="card" style="width: 250px;">
-          <img src="public/images/kim.jpg">
+          <img src="public/images/nancy_new.jpg">
           <div class="card-section">
             <h5>Nancy Piper, Optician</h5>
           </div>
@@ -213,22 +213,6 @@
       <p class="small-8 large-6 columns">
         etc.
       </p>
-    </div>
-    <div>
-      <div class="row">
-        <div class="small-10">
-          <!-- start slipsum code -->
-  
-          <h2>Hold on to your butts</h2>
-          <p>Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... You know why, David? Because of the kids. They called me Mr Glass. </p>
-  
-          <h2>I can do that</h2>
-          <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
-  
-          <h2>Are you ready for the truth?</h2>
-          <p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends. </p>
-        </div>
-      </div>
     </div>
     <footer class="row">
       <!-- footer stuff -->

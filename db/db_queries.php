@@ -79,6 +79,10 @@ class db{
     }
   }
   
+  function getError() {
+    return $this->conn->error;
+  }
+  
   function __destruct()
   {
     // TODO: Implement __destruct() method.
