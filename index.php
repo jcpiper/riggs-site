@@ -46,7 +46,7 @@
     <!-- #Content-->
     <div id="scrollPic" class="hide-for-small-only">
       <div class="row overlay-center">
-        <div class="medium-12 large-6 medium-centered columns grey-back">
+        <div class="medium-12 large-5 large-centered medium-centered columns grey-back">
           <p>
             Welcome to Dr. Kimberly Riggs Optometry. We have been serving the Ligonier area since 2008. Our office is located on West Main Street,
             just up the street from the Diamond.
@@ -86,7 +86,7 @@
     </div>
     <div class="row">
       <div class="small-4 columns">
-        <div class="card" style="width: 250px;">
+        <div class="card my-card">
           <img src="public/images/kim.jpg">
           <div class="card-section">
             <h5>Kim Riggs, O.D.</h5>
@@ -94,16 +94,16 @@
         </div>
       </div>
       <div class="small-4 columns">
-        <div class="card" style="width: 250px;">
-          <img src="public/images/nancy_new.jpg">
+        <div class="card my-card">
+          <img src="public/images/nancy.jpg">
           <div class="card-section">
             <h5>Nancy Piper, Optician</h5>
           </div>
         </div>
       </div>
       <div class="small-4 columns">
-        <div class="card" style="width: 250px;">
-          <img src="public/images/kim.jpg">
+        <div class="card my-card">
+          <img src="public/images/pam.jpg">
           <div class="card-section">
             <h5>Pam Hardiman, Secretary</h5>
           </div>
