@@ -2,6 +2,11 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+footer p {
+  margin-bottom: 0;
+  font-size: .75rem;
+  line-height: 100%;
+}
 .grey-back {
   color: white;
   background: rgba(0,0,0,.6);
@@ -10,9 +15,9 @@ html {
 .overlay-center {
   position: absolute;
   top: 50%;
-  /*margin-left: auto;*/
-  /*margin-right: auto;*/
-  /*width: 50%;*/
+  margin-left: 25%;
+  margin-right: auto;
+  width: 50%;
   font-size: x-large;
 }
 

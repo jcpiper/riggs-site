@@ -28,16 +28,13 @@
         <div class="top-bar-left">
           <ul class = "dropdown menu">
             <li>
-              <a href="#">Home</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#appointment">Appointment</a>
             </li>
             <li>
-              <a href="#">Appointment</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
+              <a href="#brands">Brands</a>
             </li>
           </ul>
         </div>
@@ -46,7 +43,7 @@
     <!-- #Content-->
     <div id="scrollPic" class="hide-for-small-only">
       <div class="row overlay-center">
-        <div class="medium-12 large-5 large-centered medium-centered columns grey-back">
+        <div class="grey-back">
           <p>
             Welcome to Dr. Kimberly Riggs Optometry. We have been serving the Ligonier area since 2008. Our office is located on West Main Street,
             just up the street from the Diamond.
@@ -54,13 +51,13 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="small-12 large-6 large-centered columns">
+    <div id="about" class="row">
+      <div class="small-12 large-7 large-centered columns">
         <h2>About Us</h2>
       </div>
     </div>
     <div class="row">
-      <div class="small-12 large-6 large-centered columns">
+      <div class="small-12 large-7 large-centered columns">
         <p>
           We are here for all of your vision-care needs.
         </p>
@@ -79,12 +76,13 @@
           </li>
         </ul>
       </div>
-    <div class="row">
-      <div class="small-6 large-centered columns">
+    </div>
+    <div id="us" class="row">
+      <div class="small-7 large-centered columns hide-for-small-only">
         <h2>Who we are</h2>
       </div>
     </div>
-    <div class="row">
+    <div class="row hide-for-small-only">
       <div class="small-4 columns">
         <div class="card my-card">
           <img src="public/images/kim.jpg">
@@ -110,8 +108,31 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <h2 class="small-6 large-centered columns">Make An Appointment</h2>
+    <div id="brands" class="row ">
+      <div class="small-12 large-7 large-centered columns">
+        <h2>Brands we carry</h2>
+      </div>
+    </div>
+      <div class="row">
+        <div class="small-12 large-7 large-centered columns">
+          <div class="card my-card">
+            Rayban
+          </div>
+        </div>
+        <div class="small-12 large-7 large-centered columns">
+          <div class="card my-card">
+            Oakley
+          </div>
+        </div>
+        <div class="small-12 large-7 large-centered columns">
+          <div class="card my-card">
+            ETC.
+          </div>
+        </div>
+      </div>
+    
+    <div id="appointment" class="row">
+      <h2 class="small-7 large-centered columns">Make An Appointment</h2>
     </div>
     <?php
     // **************************************************
@@ -119,83 +140,83 @@
     // **************************************************
     ?>
     <div class="row">
-      <p class="small-6 large-centered columns">
+      <p class="small-7 large-centered columns">
         Complete this form to request an appointment. We will be in touch regarding availability soon.
       </p>
     </div>
     <form name="AppointmentForm" action="db/appointmentRequest.php" method="post">
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <label for="firstName">First Name</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <input type="text" id="firstName" name="firstName" placeholder="John" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <label for="lastName">Last Name</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <input type="text" id="lastName" name="lastName" placeholder="Smith" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <label for="email">Email</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <input type="email" id="email" name="email" placeholder="example@aol.com" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <label for="phone">Phone Number</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <input type="number" id="phone" name="phone" placeholder="111-111-1111" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <label for="firstDate">Preferred Appointment Date</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <input type="datetime-local" id="firstDate" name="firstDate" required/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <label for="secondDate">Second Choice</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <input type="date" id="secondDate" name="secondDate"/>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <label for="thirdDate">Third Choice</label>
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-6 large-centered columns">
+        <div class="small-12 large-7 large-centered columns">
           <input type="date" id="thirdDate" name="thirdDate"/>
         </div>
       </div>
       <div class="row">
-        <div class="small-5 large-6 large-centered columns">
+        <div class="small-5 large-7 large-centered columns">
           <button class="button" name="submit" value="submit" type="submit">Submit</button>
         </div>
       </div>
@@ -206,21 +227,29 @@
     // *             END FORM CODE                *
     // ********************************************
     ?>
-    <div class="row">
-      <h2 class="small-6 large-4 columns">Contact Us</h2>
-    </div>
-    <div class="row">
-      <p class="small-8 large-6 columns">
-        etc.
-      </p>
-    </div>
+<!--    <div class="row">-->
+<!--      <h2 class="small-6 large-4 columns">Contact Us</h2>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--      <p class="small-8 large-6 columns">-->
+<!--        etc.-->
+<!--      </p>-->
+<!--    </div>-->
     <footer class="row">
       <!-- footer stuff -->
-      <p class="small-5 large-6 columns">
-        Footer stuff ;)
-      </p>
+      <div class="small-5 large-6 columns">
+        <p>
+          Address goes here... 111 Main Street
+        </p>
+        <p>
+          Ligonier, PA
+        </p>
+        <p>
+          15658
+        </p>
+      </div>
       <p class="small-7 large-6 columns">
-        Some more footer stuff :')
+        724-238-8188
       </p>
     </footer>
     <script src="foundation-6.3.1-complete/js/vendor/jquery.js"></script>
