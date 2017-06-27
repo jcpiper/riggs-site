@@ -21,6 +21,8 @@ $dateTwo = $_POST["secondDate"];
 $dateThree = $_POST["thirdDate"];
 
 
+
+
 if (!$db->patientExists($firstName, $lastName, $email)){
   echo 'patient insertion ' . $db->insertPatient($firstName, $lastName, $email, $phone);
 }
@@ -34,4 +36,39 @@ if($dateTwo != ''){
   }
 } else{
   echo 'appointment with one date ' .$db->insertAppointment($id, $date);
+}
+
+$appointments = $db->getNewAppointments();
+
+if ($appointments) {
+  echo 'query seems to have worked';
+  var_dump($appointments);
+//  $results = $appointments->fetch_assoc();
+//  echo "array or results <br>";
+//  var_dump($results);
+  
+  echo 'table of results <br>';
+  
+  echo '<table class="data-table">';
+  $fields = $appointments->fetch_fields();
+  echo '<tr class="data-head">';
+//  var_dump($fields);
+  $field_names = array();
+  foreach ($fields as $head) {
+    echo "<th>$head->name</th>";
+    array_push($field_names, $head->name);
+  }
+  echo '</tr>';
+  
+  while ($row = $appointments->fetch_assoc()){
+    echo '<tr>';
+    foreach ($field_names as $item){
+      echo "<td>$row[$item]</td>";
+    }
+    echo '</tr>';
+  }
+  
+}
+else {
+  echo 'query failed ' . $db->getError();
 }

@@ -192,7 +192,18 @@
       </div>
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
-          <input type="datetime-local" id="firstDate" name="firstDate" required/>
+          <div class="row">
+            <div class="large-8 columns">
+              <input type="date" id="firstDate" name="firstDate" required/>
+            </div>
+            <div class="large-4 columns">
+              <select name="firstTime" form="appointmentForm" required>
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -201,8 +212,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="small-12 large-7 large-centered columns">
-          <input type="date" id="secondDate" name="secondDate"/>
+        <div class="large-7 large-centered columns">
+          <div class="row">
+            <div class="large-8 columns">
+              <input type="date" id="secondDate" name="secondDate"/>
+            </div>
+            <div class="large-4 columns">
+              <select name="secondTime" form="appointmentForm">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -212,7 +234,18 @@
       </div>
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
-          <input type="date" id="thirdDate" name="thirdDate"/>
+          <div class="row">
+            <div class="large-8 columns">
+              <input type="date" id="thirdDate" name="thirdDate"/>
+            </div>
+            <div class="large-4 columns">
+              <select name="secondTime" form="appointmentForm">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">

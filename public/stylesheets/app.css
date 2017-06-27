@@ -7,6 +7,11 @@ footer p {
   font-size: .75rem;
   line-height: 100%;
 }
+
+.column-wrapper {
+  margin: 0 auto;
+}
+
 .grey-back {
   color: white;
   background: rgba(0,0,0,.6);

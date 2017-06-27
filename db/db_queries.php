@@ -54,7 +54,7 @@ class db{
     VALUES ($id, '$date', $dateTwo, $dateThree)";
   
     if($this->conn->query($sql) !== true){
-      echo "Failed to add $id $date $dateTwo $dateThree to the database " . $this->conn->error;
+      echo "Failed to add $id, $date, $dateTwo, $dateThree to the database " . $this->conn->error;
       return false;
     }
     return true;
