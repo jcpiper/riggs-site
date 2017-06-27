@@ -12,7 +12,7 @@
         Eyes, Optometrist, Contacts, Contact, Lens, Lenses"/>
     <meta name="author" content="Justin Piper"/>
     <title>West Main Optometry</title>
-    <link rel="stylesheet" type="text/css" href="foundation-6.3.1-complete/foundation.min.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/foundation-6.3.1-complete/foundation.min.css"/>
     <link rel="stylesheet" type="text/css" href="public/stylesheets/app.css"/>
   </head>
   
@@ -285,9 +285,10 @@
         724-238-8188
       </p>
     </footer>
-    <script src="foundation-6.3.1-complete/js/vendor/jquery.js"></script>
-    <script src="foundation-6.3.1-complete/js/vendor/what-input.js"></script>
-    <script src="foundation-6.3.1-complete/js/vendor/foundation.js"></script>
+    <script src="resources/foundation-6.3.1-complete/js/vendor/jquery.js"></script>
+    <script src="resources/foundation-6.3.1-complete/js/vendor/what-input.js"></script>
+    <script src="resources/foundation-6.3.1-complete/js/vendor/foundation.js"></script>
+    <script src="resources/node_modules/zebra_datepicker/dist/zebra_datepicker.min.js"></script>
     <script src="public/javascript/app.js"></script>
   </body>
 </html>
