@@ -86,6 +86,6 @@ class db{
   function __destruct()
   {
     // TODO: Implement __destruct() method.
-    echo 'bye!';
+    $this->conn->close();
   }
 }

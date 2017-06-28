@@ -7,14 +7,13 @@
  */
 // this will be the index file for the admin site
 include '../db/db_queries.php';
+include './src/admin_functions.php';
 
 $db = new db();
+$admin = new admin();
 
-$appointments = $db->getNewAppointments();
-
-if ($appointments) {
-  echo 'query seems to have worked';
-}
-else {
-  echo 'query failed ' . $db->getError();
+//
+if ($appointments = $db->getNewAppointments()) {
+  $admin->resultTable($appointments);
+  $appointments->free();
 }
