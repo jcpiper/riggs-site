@@ -27,9 +27,9 @@ if( $connection->query("DROP TABLE IF EXISTS appointments, patients, users  CASC
 
 $table = "create table appointments(
   id SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-  first_date DATETIME not null,
-  second_date DATETIME,
-  third_date DATETIME,
+  first_date VARCHAR(25) not null,
+  second_date VARCHAR(25),
+  third_date VARCHAR(25),
   processed BOOL NOT NULL DEFAULT FALSE,
   creationDate TIMESTAMP 
   )

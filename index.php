@@ -13,6 +13,7 @@
     <meta name="author" content="Justin Piper"/>
     <title>West Main Optometry</title>
     <link rel="stylesheet" type="text/css" href="resources/foundation-6.3.1-complete/foundation.min.css"/>
+    <link rel="stylesheet" type="text/css" href="resources/zebra_datepicker/dist/css/bootstrap/zebra_datepicker.min.css"/>
     <link rel="stylesheet" type="text/css" href="public/stylesheets/app.css"/>
   </head>
   
@@ -194,7 +195,7 @@
         <div class="small-12 large-7 large-centered columns">
           <div class="row">
             <div class="large-8 columns">
-              <input type="date" id="firstDate" name="firstDate" required/>
+              <input type="text" id="firstDate" name="firstDate" class="date" required/>
             </div>
             <div class="large-4 columns">
               <select name="firstTime" form="appointmentForm" required>
@@ -215,7 +216,7 @@
         <div class="large-7 large-centered columns">
           <div class="row">
             <div class="large-8 columns">
-              <input type="date" id="secondDate" name="secondDate"/>
+              <input type="text" id="secondDate" name="secondDate" class="date"/>
             </div>
             <div class="large-4 columns">
               <select name="secondTime" form="appointmentForm">
@@ -236,10 +237,10 @@
         <div class="small-12 large-7 large-centered columns">
           <div class="row">
             <div class="large-8 columns">
-              <input type="date" id="thirdDate" name="thirdDate"/>
+              <input type="text" id="thirdDate" name="thirdDate" class="date"/>
             </div>
             <div class="large-4 columns">
-              <select name="secondTime" form="appointmentForm">
+              <select name="thirdTime" form="appointmentForm">
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
                 <option value="evening">Evening</option>
@@ -288,7 +289,11 @@
     <script src="resources/foundation-6.3.1-complete/js/vendor/jquery.js"></script>
     <script src="resources/foundation-6.3.1-complete/js/vendor/what-input.js"></script>
     <script src="resources/foundation-6.3.1-complete/js/vendor/foundation.js"></script>
-    <script src="resources/node_modules/zebra_datepicker/dist/zebra_datepicker.min.js"></script>
+<!--    <script src="https://code.jquery.com/jquery-3.2.1.min.js"-->
+<!--      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="-->
+<!--      crossorigin="anonymous">-->
+<!--    </script>-->
+    <script src="resources/zebra_datepicker/dist/zebra_datepicker.min.js"></script>
     <script src="public/javascript/app.js"></script>
   </body>
 </html>

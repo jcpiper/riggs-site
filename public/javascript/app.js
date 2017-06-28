@@ -16,3 +16,8 @@ console.log("in app.js");
   var div = document.getElementById("scrollPic");
   div.style.height = height.toString() + 'px';
 })();
+
+
+$(document).ready(function () {
+  $('input.date').Zebra_DatePicker();
+});

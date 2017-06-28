@@ -20,7 +20,24 @@ $date = $_POST["firstDate"];
 $dateTwo = $_POST["secondDate"];
 $dateThree = $_POST["thirdDate"];
 
+$format = 'l\, M j\, Y';
+var_dump(strtotime($date));
+$date = date($format, strtotime($date));
+if($dateTwo != ''){
+  $dateTwo = date($format, strtotime($dateTwo));
+  if($dateThree != ''){
+    $dateThree = date($format, strtotime($dateThree));
+  }
+  else {
+    $dateThree = null;
+  }
+}
+else {
+  $dateTwo = null;
+}
 
+echo '<br>Primary Date: ' . $date . '<br>';
+var_dump($date);
 
 
 if (!$db->patientExists($firstName, $lastName, $email)){
@@ -28,15 +45,18 @@ if (!$db->patientExists($firstName, $lastName, $email)){
 }
 
 $id = $db->getPatientId($firstName, $lastName, $email);
-if($dateTwo != ''){
-  if($dateThree != ''){
-    echo 'appointment with three dates ' .$db->insertAppointment($id, $date, $dateTwo, $dateThree);
-  } else{
-    echo 'appointment with two dates ' . $db->insertAppointment($id, $date, $dateTwo);
-  }
-} else{
-  echo 'appointment with one date ' .$db->insertAppointment($id, $date);
-}
+//if($dateTwo != ''){
+//  if($dateThree != ''){
+//    echo 'appointment with three dates ' .$db->insertAppointment($id, $date, $dateTwo, $dateThree);
+//  } else{
+//    echo 'appointment with two dates ' . $db->insertAppointment($id, $date, $dateTwo);
+//  }
+//} else{
+//  echo 'appointment with one date ' .$db->insertAppointment($id, $date);
+//}
+
+// replacement for above logic gate
+$db->insertAppointment($id, $date, $dateTwo, $dateThree);
 
 $appointments = $db->getNewAppointments();
 

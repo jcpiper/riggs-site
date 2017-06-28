@@ -51,7 +51,7 @@ class db{
   
   public function insertAppointment($id, $date, $dateTwo = null, $dateThree = null){
     $sql = "INSERT INTO appointments (patient_id, first_date, second_date, third_date)
-    VALUES ($id, '$date', $dateTwo, $dateThree)";
+    VALUES ('$id', '$date', '$dateTwo', '$dateThree')";
   
     if($this->conn->query($sql) !== true){
       echo "Failed to add $id, $date, $dateTwo, $dateThree to the database " . $this->conn->error;
