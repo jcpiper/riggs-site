@@ -1,7 +1,6 @@
 /**
  * Created by Justin on 5/27/2017.
  */
-console.log("in app.js");
 $(document).foundation();
 
 console.log("in app.js");

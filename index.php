@@ -24,7 +24,6 @@
         <button class="menu-icon" type="button" data-toggle="dropdownMenu"></button>
         <div class="title-bar-title">Menu</div>
       </div>
-      
       <nav class="top-bar" id="dropdownMenu">
         <div class="top-bar-left">
           <ul class = "dropdown menu">

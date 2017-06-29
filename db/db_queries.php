@@ -79,6 +79,32 @@ class db{
     }
   }
   
+  function getPatients() {
+    $sql = "SELECT * FROM patients";
+    
+    $result = $this->conn->query($sql);
+    if($result->num_rows > 0) {
+      return $result;
+    }
+    else{
+      return false;
+    }
+  }
+  
+  function getPatientById($id) {
+    $sql = "SELECT * FROM patients
+            WHERE  id = '$id'";
+    
+    $result = $this->conn->query($sql);
+    
+    if($result->num_rows > 0) {
+      return $result;
+    }
+    else{
+      return false;
+    }
+  }
+  
   function getError() {
     return $this->conn->error;
   }
