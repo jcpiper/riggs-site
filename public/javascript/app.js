@@ -20,3 +20,16 @@ console.log("in app.js");
 $(document).ready(function () {
   $('input.date').Zebra_DatePicker();
 });
+
+// submit form with ajax
+$('#appointmentForm').ajaxForm({
+  success: function() {
+    $('#hiddenSuccessMessage').toggle(true);
+    $('#appointmentForm').focus();
+  },
+  error: function() {
+    $('#hiddenErrorMessage').toggle(true);
+    $('#appointmentForm').focus();
+  },
+  clearForm: true
+});

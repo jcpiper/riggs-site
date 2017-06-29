@@ -17,8 +17,11 @@ $lastName = $_POST["lastName"];
 $email = $_POST["email"];
 $phone = $_POST["phone"];
 $date = $_POST["firstDate"];
+$time = $_POST["firstTime"];
 $dateTwo = $_POST["secondDate"];
+$timeTwo = $_POST["secondTime"];
 $dateThree = $_POST["thirdDate"];
+$timeThree = $_POST["thirdTime"];
 
 $format = 'l\, M j\, Y';
 var_dump(strtotime($date));
@@ -30,10 +33,13 @@ if($dateTwo != ''){
   }
   else {
     $dateThree = null;
+    $timeThree = null;
   }
 }
 else {
   $dateTwo = null;
+  $timeTwo = null;
+  $timeThree = null;
 }
 
 echo '<br>Primary Date: ' . $date . '<br>';
@@ -46,6 +52,6 @@ if (!$db->patientExists($firstName, $lastName, $email)){
 
 $id = $db->getPatientId($firstName, $lastName, $email);
 
-$db->insertAppointment($id, $date, $dateTwo, $dateThree);
+$db->insertAppointment($id, $date, $time, $dateTwo, $timeTwo, $dateThree, $timeThree);
 
 // redirect to home ...

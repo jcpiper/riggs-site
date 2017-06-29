@@ -83,31 +83,42 @@
       </div>
     </div>
     <div class="row hide-for-small-only">
-      <div class="small-4 columns">
-        <div class="card my-card">
-          <img src="public/images/kim.jpg">
-          <div class="card-section">
-            <h5>Kim Riggs, O.D.</h5>
+      <div class="large-7 large-centered">
+        <div class="row">
+          <div class="small-5 columns">
+            <div class="card my-card">
+              <img src="public/images/kim.jpg">
+              <div class="card-section">
+                <h5>Kim Riggs, O.D.</h5>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="small-4 columns">
-        <div class="card my-card">
-          <img src="public/images/nancy.jpg">
-          <div class="card-section">
-            <h5>Nancy Piper, Optician</h5>
-          </div>
-        </div>
-      </div>
-      <div class="small-4 columns">
-        <div class="card my-card">
-          <img src="public/images/pam.jpg">
-          <div class="card-section">
-            <h5>Pam Hardiman, Secretary</h5>
+          <div class="small-5 columns">
+            <div class="card my-card">
+              <img src="public/images/nancy.jpg">
+              <div class="card-section">
+                <h5>Nancy Piper, Optical Manager</h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+      <div class="row">
+        <div class="large-7 large-centered columns">
+          <div class="row">
+            <div class="small-5 columns">
+              <div class="card my-card">
+                <img src="public/images/pam.jpg">
+                <div class="card-section">
+                  <h5>Pam Hardiman, Office Manager</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     <div id="brands" class="row ">
       <div class="small-12 large-7 large-centered columns">
         <h2>Brands we carry</h2>
@@ -144,7 +155,21 @@
         Complete this form to request an appointment. We will be in touch regarding availability soon.
       </p>
     </div>
-    <form name="AppointmentForm" action="db/appointmentRequest.php" method="post">
+    <form name="appointmentForm" id="appointmentForm" action="db/appointmentRequest.php" method="post">
+      <div class="row" id="hiddenSuccessMessage">
+        <div class="large-7 large-centered columns">
+          <div class="callout small success"  data-closable="slide-out-right">
+            <h4>Form submitted successfully!</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="hiddenErrorMessage">
+        <div class="large-7 large-centered columns">
+          <div class="callout error small" data-closable="slide-out-right">
+            <h4>Failed to submit form!</h4>
+          </div>
+        </div>
+      </div>
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
           <label for="firstName">First Name</label>
@@ -197,7 +222,7 @@
               <input type="text" id="firstDate" name="firstDate" class="date" required/>
             </div>
             <div class="large-4 columns">
-              <select name="firstTime" form="appointmentForm" required>
+              <select name="firstTime" id="firstTime" form="appointmentForm" required>
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
                 <option value="evening">Evening</option>
@@ -218,7 +243,7 @@
               <input type="text" id="secondDate" name="secondDate" class="date"/>
             </div>
             <div class="large-4 columns">
-              <select name="secondTime" form="appointmentForm">
+              <select name="secondTime" id="secondTime" form="appointmentForm">
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
                 <option value="evening">Evening</option>
@@ -239,7 +264,7 @@
               <input type="text" id="thirdDate" name="thirdDate" class="date"/>
             </div>
             <div class="large-4 columns">
-              <select name="thirdTime" form="appointmentForm">
+              <select name="thirdTime" id="thirdTime" form="appointmentForm">
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
                 <option value="evening">Evening</option>
@@ -268,11 +293,11 @@
 <!--        etc.-->
 <!--      </p>-->
 <!--    </div>-->
-    <footer class="row">
+    <footer class="row collapse expanded">
       <!-- footer stuff -->
-      <div class="small-5 large-6 columns">
+      <div class="small-5 large-6 large-offset-1 columns">
         <p>
-          Address goes here... 111 Main Street
+          207 East Main Street
         </p>
         <p>
           Ligonier, PA
@@ -281,17 +306,14 @@
           15658
         </p>
       </div>
-      <p class="small-7 large-6 columns">
+      <p class="large-2 align-right columns">
         724-238-8188
       </p>
     </footer>
     <script src="resources/foundation-6.3.1-complete/js/vendor/jquery.js"></script>
+    <script src="http://malsup.github.com/jquery.form.js"></script>
     <script src="resources/foundation-6.3.1-complete/js/vendor/what-input.js"></script>
     <script src="resources/foundation-6.3.1-complete/js/vendor/foundation.js"></script>
-<!--    <script src="https://code.jquery.com/jquery-3.2.1.min.js"-->
-<!--      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="-->
-<!--      crossorigin="anonymous">-->
-<!--    </script>-->
     <script src="resources/zebra_datepicker/dist/zebra_datepicker.min.js"></script>
     <script src="public/javascript/app.js"></script>
   </body>

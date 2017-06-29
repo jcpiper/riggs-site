@@ -49,9 +49,9 @@ class db{
     return true;
   }
   
-  public function insertAppointment($id, $date, $dateTwo = null, $dateThree = null){
-    $sql = "INSERT INTO appointments (patient_id, first_date, second_date, third_date)
-    VALUES ('$id', '$date', '$dateTwo', '$dateThree')";
+  public function insertAppointment($id, $date, $time, $dateTwo = null, $timeTwo=null, $dateThree = null, $timeThree=null){
+    $sql = "INSERT INTO appointments (patient_id, first_date, first_time, second_date, second_time, third_date, third_time)
+    VALUES ('$id', '$date', '$time', '$dateTwo', '$timeTwo', '$dateThree', '$timeThree')";
   
     if($this->conn->query($sql) !== true){
       echo "Failed to add $id, $date, $dateTwo, $dateThree to the database " . $this->conn->error;

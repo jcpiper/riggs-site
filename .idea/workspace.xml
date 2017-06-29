@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13ba874-5018-4ea8-9078-0d387d901a24" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/src/admin_functions.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/appointmentRequest.php" afterPath="$PROJECT_DIR$/db/appointmentRequest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/db_queries.php" afterPath="$PROJECT_DIR$/db/db_queries.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/initialization.php" afterPath="$PROJECT_DIR$/db/initialization.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/app.js" afterPath="$PROJECT_DIR$/public/javascript/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.css" />
     </list>
     <ignored path="RiggsSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +46,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1803">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,8 @@
       <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="833">
+              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -73,29 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../RiggsAdmin/src/admin_functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding>
-                <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1498709922596" expanded="true" signature="104:1751" ph="..." />
-                <marker date="1498709922596" expanded="true" signature="326:436" ph="..." />
-                <marker date="1498709922596" expanded="true" signature="365:436" ph="..." />
-                <marker date="1498709922596" expanded="true" signature="700:798" ph="..." />
-                <marker date="1498709922596" expanded="true" signature="908:1109" ph="..." />
-                <marker date="1498709922596" expanded="true" signature="967:1042" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascript/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="459">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -104,8 +86,8 @@
       <file leaf-file-name="appointmentRequest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/appointmentRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="489">
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
               </folding>
@@ -116,21 +98,21 @@
       <file leaf-file-name="db_queries.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/db_queries.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="-531">
+              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1498689945108" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
-                <marker date="1498689945108" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
-                <marker date="1498689945108" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
-                <marker date="1498689945108" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
-                <marker date="1498689945108" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
-                <marker date="1498689945108" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
-                <marker date="1498689945108" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
-                <marker date="1498689945108" expanded="true" signature="1384:1512" ph="INSERT INTO appointments... " />
-                <marker date="1498689945108" expanded="true" signature="1901:1959" ph="SELECT * FRO... appointments" />
-                <marker date="1498689945108" expanded="true" signature="2177:2199" ph="SELECT * FRO... patients" />
-                <marker date="1498689945108" expanded="true" signature="2395:2447" ph="SELECT * FRO... patients" />
+                <marker date="1498717582095" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
+                <marker date="1498717582095" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
+                <marker date="1498717582095" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
+                <marker date="1498717582095" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
+                <marker date="1498717582095" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
+                <marker date="1498717582095" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
+                <marker date="1498717582095" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
+                <marker date="1498717582095" expanded="true" signature="1423:1623" ph="INSERT INTO appointments... " />
+                <marker date="1498717582095" expanded="true" signature="2012:2070" ph="SELECT * FRO... appointments" />
+                <marker date="1498717582095" expanded="true" signature="2288:2310" ph="SELECT * FRO... patients" />
+                <marker date="1498717582095" expanded="true" signature="2506:2558" ph="SELECT * FRO... patients" />
               </folding>
             </state>
           </provider>
@@ -139,17 +121,17 @@
       <file leaf-file-name="initialization.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/initialization.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="221">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <marker date="1498665257582" expanded="true" signature="396:455" ph="DROP TABLE I... " />
-                <marker date="1498665257582" expanded="true" signature="608:632" ph="create table... appointments" />
-                <marker date="1498665257582" expanded="true" signature="608:844" ph="create table... appointment" />
-                <marker date="1498665257582" expanded="true" signature="1041:1270" ph="CREATE TABLE... patients" />
-                <marker date="1498665257582" expanded="true" signature="1469:1692" ph="CREATE TABLE... user" />
-                <marker date="1498665257582" expanded="true" signature="1887:1954" ph="ALTER TABLE appointments... " />
-                <marker date="1498665257582" expanded="true" signature="1993:2096" ph="ALTER TABLE appointments... " />
+                <marker date="1498716513370" expanded="true" signature="396:455" ph="DROP TABLE I... " />
+                <marker date="1498716513370" expanded="true" signature="608:632" ph="create table... appointments" />
+                <marker date="1498716513370" expanded="true" signature="608:932" ph="create table... appointment" />
+                <marker date="1498716513370" expanded="true" signature="1129:1358" ph="CREATE TABLE... patients" />
+                <marker date="1498716513370" expanded="true" signature="1557:1780" ph="CREATE TABLE... user" />
+                <marker date="1498716513370" expanded="true" signature="1975:2042" ph="ALTER TABLE appointments... " />
+                <marker date="1498716513370" expanded="true" signature="2081:2184" ph="ALTER TABLE appointments... " />
               </folding>
             </state>
           </provider>
@@ -190,13 +172,13 @@
         <option value="C:/xampp/htdocs/riggs/index.php" />
         <option value="$PROJECT_DIR$/public/images/db_connect.php" />
         <option value="$PROJECT_DIR$/admin/src/controller.php" />
-        <option value="$PROJECT_DIR$/public/stylesheets/app.css" />
-        <option value="$PROJECT_DIR$/db/initialization.php" />
-        <option value="$PROJECT_DIR$/db/appointmentRequest.php" />
-        <option value="$PROJECT_DIR$/db/db_queries.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/src/admin_functions.php" />
         <option value="$PROJECT_DIR$/../RiggsAdmin/index.php" />
+        <option value="$PROJECT_DIR$/db/initialization.php" />
+        <option value="$PROJECT_DIR$/db/db_queries.php" />
+        <option value="$PROJECT_DIR$/db/appointmentRequest.php" />
+        <option value="$PROJECT_DIR$/public/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/public/javascript/app.js" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
@@ -397,12 +379,12 @@
       <workItem from="1498506704819" duration="1287000" />
       <workItem from="1498512271142" duration="2684000" />
       <workItem from="1498515009392" duration="1327000" />
-      <workItem from="1498573781192" duration="31835000" />
+      <workItem from="1498573781192" duration="41584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116812000" />
+    <option name="totallyTimeSpent" value="126561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,7 +396,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19742814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -482,17 +464,17 @@
           <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498689945108" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
-            <marker date="1498689945108" expanded="true" signature="1384:1512" ph="INSERT INTO appointments... " />
-            <marker date="1498689945108" expanded="true" signature="1901:1959" ph="SELECT * FRO... appointments" />
-            <marker date="1498689945108" expanded="true" signature="2177:2199" ph="SELECT * FRO... patients" />
-            <marker date="1498689945108" expanded="true" signature="2395:2447" ph="SELECT * FRO... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
+            <marker date="1498717582095" expanded="true" signature="1423:1623" ph="INSERT INTO appointments... " />
+            <marker date="1498717582095" expanded="true" signature="2012:2070" ph="SELECT * FRO... appointments" />
+            <marker date="1498717582095" expanded="true" signature="2288:2310" ph="SELECT * FRO... patients" />
+            <marker date="1498717582095" expanded="true" signature="2506:2558" ph="SELECT * FRO... patients" />
           </folding>
         </state>
       </provider>
@@ -503,13 +485,13 @@
           <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498665257582" expanded="true" signature="396:455" ph="DROP TABLE I... " />
-            <marker date="1498665257582" expanded="true" signature="608:632" ph="create table... appointments" />
-            <marker date="1498665257582" expanded="true" signature="608:844" ph="create table... appointment" />
-            <marker date="1498665257582" expanded="true" signature="1041:1270" ph="CREATE TABLE... patients" />
-            <marker date="1498665257582" expanded="true" signature="1469:1692" ph="CREATE TABLE... user" />
-            <marker date="1498665257582" expanded="true" signature="1887:1954" ph="ALTER TABLE appointments... " />
-            <marker date="1498665257582" expanded="true" signature="1993:2096" ph="ALTER TABLE appointments... " />
+            <marker date="1498716513370" expanded="true" signature="396:455" ph="DROP TABLE I... " />
+            <marker date="1498716513370" expanded="true" signature="608:632" ph="create table... appointments" />
+            <marker date="1498716513370" expanded="true" signature="608:932" ph="create table... appointment" />
+            <marker date="1498716513370" expanded="true" signature="1129:1358" ph="CREATE TABLE... patients" />
+            <marker date="1498716513370" expanded="true" signature="1557:1780" ph="CREATE TABLE... user" />
+            <marker date="1498716513370" expanded="true" signature="1975:2042" ph="ALTER TABLE appointments... " />
+            <marker date="1498716513370" expanded="true" signature="2081:2184" ph="ALTER TABLE appointments... " />
           </folding>
         </state>
       </provider>
@@ -576,17 +558,17 @@
           <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498689945108" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
-            <marker date="1498689945108" expanded="true" signature="1384:1512" ph="INSERT INTO appointments... " />
-            <marker date="1498689945108" expanded="true" signature="1901:1959" ph="SELECT * FRO... appointments" />
-            <marker date="1498689945108" expanded="true" signature="2177:2199" ph="SELECT * FRO... patients" />
-            <marker date="1498689945108" expanded="true" signature="2395:2447" ph="SELECT * FRO... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
+            <marker date="1498717582095" expanded="true" signature="1423:1623" ph="INSERT INTO appointments... " />
+            <marker date="1498717582095" expanded="true" signature="2012:2070" ph="SELECT * FRO... appointments" />
+            <marker date="1498717582095" expanded="true" signature="2288:2310" ph="SELECT * FRO... patients" />
+            <marker date="1498717582095" expanded="true" signature="2506:2558" ph="SELECT * FRO... patients" />
           </folding>
         </state>
       </provider>
@@ -597,13 +579,13 @@
           <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498665257582" expanded="true" signature="396:455" ph="DROP TABLE I... " />
-            <marker date="1498665257582" expanded="true" signature="608:632" ph="create table... appointments" />
-            <marker date="1498665257582" expanded="true" signature="608:844" ph="create table... appointment" />
-            <marker date="1498665257582" expanded="true" signature="1041:1270" ph="CREATE TABLE... patients" />
-            <marker date="1498665257582" expanded="true" signature="1469:1692" ph="CREATE TABLE... user" />
-            <marker date="1498665257582" expanded="true" signature="1887:1954" ph="ALTER TABLE appointments... " />
-            <marker date="1498665257582" expanded="true" signature="1993:2096" ph="ALTER TABLE appointments... " />
+            <marker date="1498716513370" expanded="true" signature="396:455" ph="DROP TABLE I... " />
+            <marker date="1498716513370" expanded="true" signature="608:632" ph="create table... appointments" />
+            <marker date="1498716513370" expanded="true" signature="608:932" ph="create table... appointment" />
+            <marker date="1498716513370" expanded="true" signature="1129:1358" ph="CREATE TABLE... patients" />
+            <marker date="1498716513370" expanded="true" signature="1557:1780" ph="CREATE TABLE... user" />
+            <marker date="1498716513370" expanded="true" signature="1975:2042" ph="ALTER TABLE appointments... " />
+            <marker date="1498716513370" expanded="true" signature="2081:2184" ph="ALTER TABLE appointments... " />
           </folding>
         </state>
       </provider>
@@ -678,17 +660,17 @@
           <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498689945108" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
-            <marker date="1498689945108" expanded="true" signature="1384:1512" ph="INSERT INTO appointments... " />
-            <marker date="1498689945108" expanded="true" signature="1901:1959" ph="SELECT * FRO... appointments" />
-            <marker date="1498689945108" expanded="true" signature="2177:2199" ph="SELECT * FRO... patients" />
-            <marker date="1498689945108" expanded="true" signature="2395:2447" ph="SELECT * FRO... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
+            <marker date="1498717582095" expanded="true" signature="1423:1623" ph="INSERT INTO appointments... " />
+            <marker date="1498717582095" expanded="true" signature="2012:2070" ph="SELECT * FRO... appointments" />
+            <marker date="1498717582095" expanded="true" signature="2288:2310" ph="SELECT * FRO... patients" />
+            <marker date="1498717582095" expanded="true" signature="2506:2558" ph="SELECT * FRO... patients" />
           </folding>
         </state>
       </provider>
@@ -699,13 +681,13 @@
           <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498665257582" expanded="true" signature="396:455" ph="DROP TABLE I... " />
-            <marker date="1498665257582" expanded="true" signature="608:632" ph="create table... appointments" />
-            <marker date="1498665257582" expanded="true" signature="608:844" ph="create table... appointment" />
-            <marker date="1498665257582" expanded="true" signature="1041:1270" ph="CREATE TABLE... patients" />
-            <marker date="1498665257582" expanded="true" signature="1469:1692" ph="CREATE TABLE... user" />
-            <marker date="1498665257582" expanded="true" signature="1887:1954" ph="ALTER TABLE appointments... " />
-            <marker date="1498665257582" expanded="true" signature="1993:2096" ph="ALTER TABLE appointments... " />
+            <marker date="1498716513370" expanded="true" signature="396:455" ph="DROP TABLE I... " />
+            <marker date="1498716513370" expanded="true" signature="608:632" ph="create table... appointments" />
+            <marker date="1498716513370" expanded="true" signature="608:932" ph="create table... appointment" />
+            <marker date="1498716513370" expanded="true" signature="1129:1358" ph="CREATE TABLE... patients" />
+            <marker date="1498716513370" expanded="true" signature="1557:1780" ph="CREATE TABLE... user" />
+            <marker date="1498716513370" expanded="true" signature="1975:2042" ph="ALTER TABLE appointments... " />
+            <marker date="1498716513370" expanded="true" signature="2081:2184" ph="ALTER TABLE appointments... " />
           </folding>
         </state>
       </provider>
@@ -873,43 +855,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/appointmentRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#90#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/db_queries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498689945108" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
-            <marker date="1498689945108" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
-            <marker date="1498689945108" expanded="true" signature="1384:1512" ph="INSERT INTO appointments... " />
-            <marker date="1498689945108" expanded="true" signature="1901:1959" ph="SELECT * FRO... appointments" />
-            <marker date="1498689945108" expanded="true" signature="2177:2199" ph="SELECT * FRO... patients" />
-            <marker date="1498689945108" expanded="true" signature="2395:2447" ph="SELECT * FRO... patients" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../RiggsAdmin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/initialization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1498716513370" expanded="true" signature="396:455" ph="DROP TABLE I... " />
+            <marker date="1498716513370" expanded="true" signature="608:632" ph="create table... appointments" />
+            <marker date="1498716513370" expanded="true" signature="608:932" ph="create table... appointment" />
+            <marker date="1498716513370" expanded="true" signature="1129:1358" ph="CREATE TABLE... patients" />
+            <marker date="1498716513370" expanded="true" signature="1557:1780" ph="CREATE TABLE... user" />
+            <marker date="1498716513370" expanded="true" signature="1975:2042" ph="ALTER TABLE appointments... " />
+            <marker date="1498716513370" expanded="true" signature="2081:2184" ph="ALTER TABLE appointments... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../RiggsAdmin/src/admin_functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1498718573661" expanded="true" signature="326:436" ph="..." />
+            <marker date="1498718573661" expanded="true" signature="365:436" ph="..." />
+            <marker date="1498718573661" expanded="true" signature="754:1161" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db_queries.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-531">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <marker date="1498717582095" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
+            <marker date="1498717582095" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
+            <marker date="1498717582095" expanded="true" signature="1423:1623" ph="INSERT INTO appointments... " />
+            <marker date="1498717582095" expanded="true" signature="2012:2070" ph="SELECT * FRO... appointments" />
+            <marker date="1498717582095" expanded="true" signature="2288:2310" ph="SELECT * FRO... patients" />
+            <marker date="1498717582095" expanded="true" signature="2506:2558" ph="SELECT * FRO... patients" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/appointmentRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -922,59 +934,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../RiggsAdmin/src/admin_functions.php">
+    <entry file="file://$PROJECT_DIR$/public/javascript/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498709922596" expanded="true" signature="104:1751" ph="..." />
-            <marker date="1498709922596" expanded="true" signature="326:436" ph="..." />
-            <marker date="1498709922596" expanded="true" signature="365:436" ph="..." />
-            <marker date="1498709922596" expanded="true" signature="700:798" ph="..." />
-            <marker date="1498709922596" expanded="true" signature="908:1109" ph="..." />
-            <marker date="1498709922596" expanded="true" signature="967:1042" ph="..." />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="833">
+          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascript/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/initialization.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498665257582" expanded="true" signature="396:455" ph="DROP TABLE I... " />
-            <marker date="1498665257582" expanded="true" signature="608:632" ph="create table... appointments" />
-            <marker date="1498665257582" expanded="true" signature="608:844" ph="create table... appointment" />
-            <marker date="1498665257582" expanded="true" signature="1041:1270" ph="CREATE TABLE... patients" />
-            <marker date="1498665257582" expanded="true" signature="1469:1692" ph="CREATE TABLE... user" />
-            <marker date="1498665257582" expanded="true" signature="1887:1954" ph="ALTER TABLE appointments... " />
-            <marker date="1498665257582" expanded="true" signature="1993:2096" ph="ALTER TABLE appointments... " />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1803">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
           <folding />
         </state>
       </provider>
