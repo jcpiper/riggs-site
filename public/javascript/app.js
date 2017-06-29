@@ -25,11 +25,10 @@ $(document).ready(function () {
 $('#appointmentForm').ajaxForm({
   success: function() {
     $('#hiddenSuccessMessage').toggle(true);
-    $('#appointmentForm').focus();
   },
   error: function() {
     $('#hiddenErrorMessage').toggle(true);
-    $('#appointmentForm').focus();
+    // document.getElementById('hiddenErrorMessage').scrollIntoView();
   },
   clearForm: true
 });

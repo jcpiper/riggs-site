@@ -156,20 +156,6 @@
       </p>
     </div>
     <form name="appointmentForm" id="appointmentForm" action="db/appointmentRequest.php" method="post">
-      <div class="row" id="hiddenSuccessMessage">
-        <div class="large-7 large-centered columns">
-          <div class="callout small success"  data-closable="slide-out-right">
-            <h4>Form submitted successfully!</h4>
-          </div>
-        </div>
-      </div>
-      <div class="row" id="hiddenErrorMessage">
-        <div class="large-7 large-centered columns">
-          <div class="callout error small" data-closable="slide-out-right">
-            <h4>Failed to submit form!</h4>
-          </div>
-        </div>
-      </div>
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
           <label for="firstName">First Name</label>
@@ -278,6 +264,20 @@
           <button class="button" name="submit" value="submit" type="submit">Submit</button>
         </div>
       </div>
+      <div class="row" id="hiddenSuccessMessage">
+        <div class="large-7 large-centered columns">
+          <div class="callout small success"  data-closable="slide-out-right">
+            <h4>Form submitted successfully!</h4>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="hiddenErrorMessage">
+        <div class="large-7 large-centered columns">
+          <div class="callout error small" data-closable="slide-out-right">
+            <h4>Failed to submit form!</h4>
+          </div>
+        </div>
+      </div>
     </form>
     
     <?php
@@ -285,14 +285,6 @@
     // *             END FORM CODE                *
     // ********************************************
     ?>
-<!--    <div class="row">-->
-<!--      <h2 class="small-6 large-4 columns">Contact Us</h2>-->
-<!--    </div>-->
-<!--    <div class="row">-->
-<!--      <p class="small-8 large-6 columns">-->
-<!--        etc.-->
-<!--      </p>-->
-<!--    </div>-->
     <footer class="row collapse expanded">
       <!-- footer stuff -->
       <div class="small-5 large-6 large-offset-1 columns">
