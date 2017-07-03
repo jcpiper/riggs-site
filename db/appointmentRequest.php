@@ -12,16 +12,37 @@ include 'db_queries.php';
 $db = new db();
 
 echo var_dump($_POST);
-$firstName = $_POST["firstName"];
-$lastName = $_POST["lastName"];
-$email = $_POST["email"];
-$phone = $_POST["phone"];
-$date = $_POST["firstDate"];
-$time = $_POST["firstTime"];
-$dateTwo = $_POST["secondDate"];
-$timeTwo = $_POST["secondTime"];
-$dateThree = $_POST["thirdDate"];
-$timeThree = $_POST["thirdTime"];
+$formVals = array();
+
+$firstName = preprocess($_POST["firstName"]);
+$lastName = preprocess($_POST["lastName"]);
+$email = preprocess($_POST["email"]);
+$phone = preprocessPhone($_POST["phone"]);
+$date = preprocess($_POST["firstDate"]);
+$time = preprocess($_POST["firstTime"]);
+$dateTwo = preprocess($_POST["secondDate"]);
+$timeTwo = preprocess($_POST["secondTime"]);
+$dateThree = preprocess($_POST["thirdDate"]);
+$timeThree = preprocess($_POST["thirdTime"]);
+
+
+
+
+
+
+function preprocess($input) {
+  $input = trim($input);
+  $input = stripslashes($input);
+  return htmlspecialchars($input);
+}
+
+function preprocessPhone($phone) {
+  $phone = trim($phone);
+  $phone = trim($phone, '-');
+  $phone = stripslashes($phone);
+  return htmlspecialchars($phone);
+}
+
 
 $format = 'l\, M j\, Y';
 var_dump(strtotime($date));
