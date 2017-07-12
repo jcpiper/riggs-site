@@ -45,7 +45,7 @@
       <div class="row overlay-center">
         <div class="grey-back">
           <p>
-            Welcome to Dr. Kimberly Riggs Optometry. We have been serving the Ligonier area since 2008. Our office is located on West Main Street,
+            Welcome to Dr. Kimberly Riggs Optometry. We have been serving the Ligonier area since 2008. Our office is located on East Main Street,
             just up the street from the Diamond.
           </p>
         </div>
@@ -59,7 +59,8 @@
     <div class="row">
       <div class="small-12 large-7 large-centered columns">
         <p>
-          We are here for all of your vision-care needs.
+          We are here for all of your vision-care needs. We are open Monday, Thursday, and Friday every week. Our Monday and Friday
+          hours are 9-5, and our Thursday hours are 12-7:30.
         </p>
         <ul>
           <li>
@@ -74,6 +75,9 @@
           <li>
             Glaucoma Screening
           </li>
+          <li>
+            Diabetes Screening
+          </li>
         </ul>
       </div>
     </div>
@@ -83,7 +87,7 @@
       </div>
     </div>
     <div class="row hide-for-small-only">
-      <div class="large-7 large-centered">
+      <div class="large-7 large-centered columns">
         <div class="row">
           <div class="small-5 columns">
             <div class="card my-card">
@@ -104,7 +108,7 @@
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row hide-for-small-only"">
       <div class="large-7 large-centered columns">
         <div class="row">
           <div class="small-5 columns">
@@ -125,7 +129,7 @@
       </div>
     </div>
     <div class="row hide-for-small-only">
-      <div class="large-7 large-centered">
+      <div class="large-7 large-centered columns">
         <div class="row">
           <div class="small-5 columns">
             <div class="card my-card">
@@ -147,7 +151,7 @@
       </div>
     </div>
     <div class="row hide-for-small-only">
-      <div class="large-7 large-centered">
+      <div class="large-7 large-centered columns">
         <div class="row">
           <div class="small-5 columns">
             <div class="card my-card">
@@ -169,7 +173,7 @@
       </div>
     </div>
     <div class="row hide-for-small-only">
-      <div class="large-7 large-centered">
+      <div class="large-7 large-centered columns">
         <div class="row">
           <div class="small-5 columns">
             <div class="card my-card">
@@ -198,7 +202,7 @@
     <form name="appointmentForm" id="appointmentForm" action="db/appointmentRequest.php" method="post">
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
-          <label for="firstName">First Name</label>
+          <label for="firstName">First Name <small>required</small></label>
         </div>
       </div>
       <div class="row">
@@ -208,7 +212,7 @@
       </div>
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
-          <label for="lastName">Last Name</label>
+          <label for="lastName">Last Name <small>required</small></label>
         </div>
       </div>
       <div class="row">
@@ -218,7 +222,7 @@
       </div>
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
-          <label for="email">Email</label>
+          <label for="email">Email <small>required</small></label>
         </div>
       </div>
       <div class="row">
@@ -228,7 +232,7 @@
       </div>
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
-          <label for="phone">Phone Number</label>
+          <label for="phone">Phone Number <small>required</small></label>
         </div>
       </div>
       <div class="row">
@@ -238,7 +242,7 @@
       </div>
       <div class="row">
         <div class="small-12 large-7 large-centered columns">
-          <label for="firstDate">Preferred Appointment Date</label>
+          <label for="firstDate">Preferred Appointment Date <small>required</small></label>
         </div>
       </div>
       <div class="row">
@@ -251,7 +255,6 @@
               <select name="firstTime" id="firstTime" form="appointmentForm" required>
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
-                <option value="evening">Evening</option>
               </select>
             </div>
           </div>
@@ -272,7 +275,6 @@
               <select name="secondTime" id="secondTime" form="appointmentForm">
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
-                <option value="evening">Evening</option>
               </select>
             </div>
           </div>
@@ -293,7 +295,6 @@
               <select name="thirdTime" id="thirdTime" form="appointmentForm">
                 <option value="morning">Morning</option>
                 <option value="afternoon">Afternoon</option>
-                <option value="evening">Evening</option>
               </select>
             </div>
           </div>
@@ -330,11 +331,9 @@
       <div class="small-5 large-6 large-offset-1 columns">
         <p>
           207 East Main Street
-        </p>
-        <p>
+          <br>
           Ligonier, PA
-        </p>
-        <p>
+          <br>
           15658
         </p>
       </div>

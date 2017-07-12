@@ -4,12 +4,14 @@ html {
 
 footer {
   background-color: gainsboro;
+  height: 6rem;
 }
 
 footer p {
+  margin-top: 1rem;
   margin-bottom: 0;
-  font-size: .75rem;
-  line-height: 100%;
+  font-size: 1em;
+  /*line-height: 100%;*/
 }
 
 .column-wrapper {
@@ -34,6 +36,7 @@ footer p {
   width: 275px;
   /*height: 300px;*/
 }
+
 
 #scrollPic {
   background: url('../images/office_1.jpg') no-repeat center top;

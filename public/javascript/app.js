@@ -3,7 +3,6 @@
  */
 $(document).foundation();
 
-console.log("in app.js");
 // make background fill screen
 (function(){
   var height = window.innerHeight;
@@ -18,7 +17,35 @@ console.log("in app.js");
 
 
 $(document).ready(function () {
-  $('input.date').Zebra_DatePicker();
+  $('input.date').Zebra_DatePicker({
+    direction: true,
+    disabled_dates: ['* * * 0,2,3,6'],
+    format: "D, m-d-Y"
+  });
+  $('#firstTime').click(function() {
+    if($('#firstDate').val().indexOf('Thu') > -1 && $('#firstTime option').length <= 2){
+      $('#firstTime').append($('<option>', {
+        value: 'evening',
+        text: 'Evening'
+      }));
+    }
+  });
+  $('#secondTime').click(function() {
+    if($('#secondDate').val().indexOf('Thu') > -1 && $('#secondTime option').length <= 2){
+      $('#secondTime').append($('<option>', {
+        value: 'evening',
+        text: 'Evening'
+      }));
+    }
+  });
+  $('#thirdTime').click(function() {
+    if($('#thirdDate').val().indexOf('Thu') > -1 && $('#thirdTime option').length <= 2){
+      $('#thirdTime').append($('<option>', {
+        value: 'evening',
+        text: 'Evening'
+      }));
+    }
+  });
 });
 
 // submit form with ajax
@@ -28,7 +55,6 @@ $('#appointmentForm').ajaxForm({
   },
   error: function() {
     $('#hiddenErrorMessage').toggle(true);
-    // document.getElementById('hiddenErrorMessage').scrollIntoView();
   },
   clearForm: true
 });
