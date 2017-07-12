@@ -80,8 +80,8 @@
       <file leaf-file-name="appointmentRequest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/appointmentRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            <state relative-caret-position="489">
+              <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
               <folding>
                 <element signature="e#6#90#0#PHP" expanded="true" />
               </folding>
@@ -368,12 +368,12 @@
       <workItem from="1498515009392" duration="1327000" />
       <workItem from="1498573781192" duration="51345000" />
       <workItem from="1499093762620" duration="2920000" />
-      <workItem from="1499781659649" duration="15671000" />
+      <workItem from="1499781659649" duration="15711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154913000" />
+    <option name="totallyTimeSpent" value="154953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -916,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/appointmentRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+        <state relative-caret-position="489">
+          <caret line="73" column="7" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
           <folding>
             <element signature="e#6#90#0#PHP" expanded="true" />
           </folding>

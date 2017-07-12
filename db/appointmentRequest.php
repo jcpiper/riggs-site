@@ -71,3 +71,4 @@ $db->insertAppointment($id, $date, $time, $dateTwo, $timeTwo, $dateThree, $timeT
 
 // redirect to home ...
 header('Location: ../');
+exit();
