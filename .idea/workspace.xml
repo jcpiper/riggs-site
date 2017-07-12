@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f13ba874-5018-4ea8-9078-0d387d901a24" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/app.js" afterPath="$PROJECT_DIR$/public/javascript/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/app.css" afterPath="$PROJECT_DIR$/public/stylesheets/app.css" />
     </list>
     <ignored path="RiggsSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,11 +48,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -163,7 +181,6 @@
       <list>
         <option value="$PROJECT_DIR$/public/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/foundation-6.3.1-complete/js/app.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="C:/xampp/htdocs/riggs/index.php" />
         <option value="$PROJECT_DIR$/public/images/db_connect.php" />
         <option value="$PROJECT_DIR$/admin/src/controller.php" />
@@ -178,6 +195,8 @@
         <option value="$PROJECT_DIR$/public/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -380,12 +399,12 @@
       <workItem from="1498515009392" duration="1327000" />
       <workItem from="1498573781192" duration="51345000" />
       <workItem from="1499093762620" duration="2920000" />
-      <workItem from="1499781659649" duration="14286000" />
+      <workItem from="1499781659649" duration="14991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153528000" />
+    <option name="totallyTimeSpent" value="154233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,27 +468,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/db_queries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <marker date="1498717582095" expanded="true" signature="305:355" ph="SELECT id FR... patients" />
-            <marker date="1498717582095" expanded="true" signature="305:357" ph="SELECT id FR... patients" />
-            <marker date="1498717582095" expanded="true" signature="305:382" ph="SELECT id FR... patients" />
-            <marker date="1498717582095" expanded="true" signature="305:400" ph="SELECT id FR... patients" />
-            <marker date="1498717582095" expanded="true" signature="305:409" ph="SELECT id FR... patients" />
-            <marker date="1498717582095" expanded="true" signature="691:795" ph="SELECT id FR... patients" />
-            <marker date="1498717582095" expanded="true" signature="990:1106" ph="INSERT INTO patient... " />
-            <marker date="1498717582095" expanded="true" signature="1423:1623" ph="INSERT INTO appointments... " />
-            <marker date="1498717582095" expanded="true" signature="2012:2070" ph="SELECT * FRO... appointments" />
-            <marker date="1498717582095" expanded="true" signature="2288:2310" ph="SELECT * FRO... patients" />
-            <marker date="1498717582095" expanded="true" signature="2506:2558" ph="SELECT * FRO... patients" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/initialization.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
@@ -774,13 +772,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foundation-6.3.1-complete/css/app.css" />
     <entry file="file://$PROJECT_DIR$/foundation-6.3.1-complete/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d12d2cef-300f-4bb6-9564-db1a223f2484/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -944,6 +935,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
           <folding />
         </state>
       </provider>
