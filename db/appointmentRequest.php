@@ -39,7 +39,6 @@ function preprocessPhone($phone) {
 
 
 $format = 'l\, M j\, Y';
-var_dump(strtotime($date));
 $date = date($format, strtotime($date));
 if($dateTwo != ''){
   $dateTwo = date($format, strtotime($dateTwo));
@@ -57,12 +56,9 @@ else {
   $timeThree = null;
 }
 
-echo '<br>Primary Date: ' . $date . '<br>';
-var_dump($date);
-
 
 if (!$db->patientExists($firstName, $lastName, $email)){
-  echo 'patient insertion ' . $db->insertPatient($firstName, $lastName, $email, $phone);
+  $db->insertPatient($firstName, $lastName, $email, $phone);
 }
 
 $id = $db->getPatientId($firstName, $lastName, $email);
@@ -70,5 +66,5 @@ $id = $db->getPatientId($firstName, $lastName, $email);
 $db->insertAppointment($id, $date, $time, $dateTwo, $timeTwo, $dateThree, $timeThree);
 
 // redirect to home ...
-header('Location: ../');
+header('Location: ../index.php');
 exit();

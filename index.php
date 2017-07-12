@@ -1,7 +1,7 @@
 <?php
 //  include "db/db_creation.php";
 //  include "db/db_connect.php";
-//  include "db/initialization.php";
+  include "db/initialization.php";
 ?>
 <!doctype html>
 <html>
