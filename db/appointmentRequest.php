@@ -11,8 +11,6 @@ include 'db_queries.php';
 
 $db = new db();
 
-echo var_dump($_POST);
-
 $firstName = preprocess($_POST["firstName"]);
 $lastName = preprocess($_POST["lastName"]);
 $email = preprocess($_POST["email"]);
@@ -72,3 +70,4 @@ $id = $db->getPatientId($firstName, $lastName, $email);
 $db->insertAppointment($id, $date, $time, $dateTwo, $timeTwo, $dateThree, $timeThree);
 
 // redirect to home ...
+header('Location: ../');
