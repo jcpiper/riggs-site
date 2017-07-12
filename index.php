@@ -104,44 +104,84 @@
         </div>
       </div>
     </div>
-      <div class="row">
-        <div class="large-7 large-centered columns">
-          <div class="row">
-            <div class="small-5 columns">
-              <div class="card my-card">
-                <img src="public/images/pam.jpg">
-                <div class="card-section">
-                  <h5>Pam Hardiman, Office Manager</h5>
-                </div>
+    <div class="row">
+      <div class="large-7 large-centered columns">
+        <div class="row">
+          <div class="small-5 columns">
+            <div class="card my-card">
+              <img src="public/images/pam.jpg">
+              <div class="card-section">
+                <h5>Pam Hardiman, Office Manager</h5>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     
     <div id="brands" class="row ">
       <div class="small-12 large-7 large-centered columns">
         <h2>Brands we carry</h2>
       </div>
     </div>
-      <div class="row">
-        <div class="small-12 large-7 large-centered columns">
-          <div class="card my-card">
-            Rayban
+    <div class="row hide-for-small-only">
+      <div class="large-7 large-centered">
+        <div class="row">
+          <div class="small-5 columns">
+            <div class="card my-card">
+              <img src="public/images/rayban.jpg" alt="RayBan"/>
+              <div class="card-section">
+                <h5>RayBan</h5>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="small-12 large-7 large-centered columns">
-          <div class="card my-card">
-            Oakley
-          </div>
-        </div>
-        <div class="small-12 large-7 large-centered columns">
-          <div class="card my-card">
-            ETC.
+          <div class="small-5 columns">
+            <div class="card my-card">
+              <img src="public/images/oakley.jpg" alt="Oakley"/>
+              <div class="card-section">
+                <h5>Oakley</h5>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    
+    </div>
+    <div class="row hide-for-small-only">
+      <div class="large-7 large-centered">
+        <div class="row">
+          <div class="small-5 columns">
+            <div class="card my-card">
+              <img src="public/images/colehaan.jpg" alt="Cole Haan"/>
+              <div class="card-section">
+                <h5>Cole Haan</h5>
+              </div>
+            </div>
+          </div>
+          <div class="small-5 columns">
+            <div class="card my-card">
+              <img src="public/images/coach.jpg" alt="Coach"/>
+              <div class="card-section">
+                <h5>Coach</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row hide-for-small-only">
+      <div class="large-7 large-centered">
+        <div class="row">
+          <div class="small-5 columns">
+            <div class="card my-card">
+              <img src="public/images/serengeti.jpg" alt="Serengeti"/>
+              <div class="card-section">
+                <h5>Serengeti</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="appointment" class="row">
       <h2 class="small-7 large-centered columns">Make An Appointment</h2>
     </div>

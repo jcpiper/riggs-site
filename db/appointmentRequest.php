@@ -12,7 +12,6 @@ include 'db_queries.php';
 $db = new db();
 
 echo var_dump($_POST);
-$formVals = array();
 
 $firstName = preprocess($_POST["firstName"]);
 $lastName = preprocess($_POST["lastName"]);
@@ -25,10 +24,7 @@ $timeTwo = preprocess($_POST["secondTime"]);
 $dateThree = preprocess($_POST["thirdDate"]);
 $timeThree = preprocess($_POST["thirdTime"]);
 
-
-
-
-
+// use php built in validators
 
 function preprocess($input) {
   $input = trim($input);

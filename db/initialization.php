@@ -63,7 +63,7 @@ $tableThree = "CREATE  TABLE  users(
     first_name varchar(20) not NULL,
     last_name varchar (20) not null,
     username VARCHAR (20) not null,
-    password VARCHAR (50) not null
+    password VARCHAR (250) not null
   )";
 
 if (mysqli_query($connection, $tableThree)) {
@@ -82,4 +82,15 @@ if($connection->query($sql) === true){
   echo "Foreign key added successfully!";
 } else {
   echo "Could not add foreign key " . $connection->error;
+}
+
+$pass = password_hash("password", PASSWORD_DEFAULT);
+var_dump($pass);
+$sql = "INSERT INTO users (username, password, first_name, last_name)
+        VALUES ('admin', '$pass', 'Justin', 'Piper')";
+
+if($connection->query($sql) === true){
+  echo "<br>Admin added to db!";
+} else {
+  echo "Could not add admin " . $connection->error;
 }
