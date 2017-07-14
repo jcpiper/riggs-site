@@ -10,7 +10,7 @@ class db{
 //  public $conn;
   function __construct()
   {
-    $this->conn = new mysqli('localhost', 'root', '', 'AppointmentScheduler');
+    $this->conn = new mysqli('localhost', '', '', '');
   }
   
   public function patientExists($fName, $lName, $email){

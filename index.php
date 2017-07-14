@@ -1,20 +1,37 @@
 <?php
-//  include "db/db_creation.php";
-//  include "db/db_connect.php";
-  include "db/initialization.php";
+include 'db/initialization.php';
 ?>
 <!doctype html>
 <html>
   <head>
     <meta charset="UTF-8"/>
-    <meta name="description" content="Contact and appointment info for West Main Optometry"/>
+    <meta name="description" content="Kimberly Riggs Optometry, located on East Main Street in Ligonier, PA, offers all essential
+    vision services. We provide eye exams, glaucoma screening, diabetes screening, eye glasses, and contact lenses.">
     <meta name="keywords" content="Kim, Riggs, Pelger, Optometry, Eye, Doctor, Glasses, Spectacles, Appointment, Appointments,
-        Eyes, Optometrist, Contacts, Contact, Lens, Lenses"/>
-    <meta name="author" content="Justin Piper"/>
-    <title>West Main Optometry</title>
-    <link rel="stylesheet" type="text/css" href="resources/foundation-6.3.1-complete/foundation.min.css"/>
-    <link rel="stylesheet" type="text/css" href="resources/zebra_datepicker/dist/css/bootstrap/zebra_datepicker.min.css"/>
-    <link rel="stylesheet" type="text/css" href="public/stylesheets/app.css"/>
+        Eyes, Optometrist, Contacts, Contact, Lens, Lenses">
+    <meta name="ROBOTS" content="INDEX, NOFOLLOW">
+    <meta name="author" content="Justin Piper">
+    <title>Kimberly Riggs Optometry</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="public/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="public/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="public/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="public/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="public/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="public/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="public/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png">
+    <link rel="manifest" href="public/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="resources/foundation-6.3.1-complete/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/zebra_datepicker/dist/css/bootstrap/zebra_datepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="public/stylesheets/app.css">
   </head>
   
   <body>
@@ -45,8 +62,8 @@
       <div class="row overlay-center">
         <div class="grey-back">
           <p>
-            Welcome to Dr. Kimberly Riggs Optometry. We have been serving the Ligonier area since 2008. Our office is located on East Main Street,
-            just up the street from the Diamond.
+            Welcome to Dr. Kimberly Riggs Optometry. We have been serving the Ligonier area since 2008. Our office is located on East Main
+            Street, just up the street from the Diamond.
           </p>
         </div>
       </div>

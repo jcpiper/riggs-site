@@ -37,23 +37,13 @@ function preprocessPhone($phone) {
   return htmlspecialchars($phone);
 }
 
-
-$format = 'l\, M j\, Y';
-$date = date($format, strtotime($date));
-if($dateTwo != ''){
-  $dateTwo = date($format, strtotime($dateTwo));
-  if($dateThree != ''){
-    $dateThree = date($format, strtotime($dateThree));
-  }
-  else {
+if($dateTwo == ''){
+  $dateTwo = null;
+  $timeTwo = null;
+  if($dateThree == ''){
     $dateThree = null;
     $timeThree = null;
   }
-}
-else {
-  $dateTwo = null;
-  $timeTwo = null;
-  $timeThree = null;
 }
 
 
